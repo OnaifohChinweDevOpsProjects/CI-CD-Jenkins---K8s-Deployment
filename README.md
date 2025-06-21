@@ -1,4 +1,4 @@
-# 🧩 Jenkins CI/CD Pipeline for Maven + Docker + Kubernetes
+# 🧩 Jenkins CI/CD Pipeline for Maven + Docker + Kubernetes + Nexus + Sonarqube
 
 This repository contains a complete Jenkins Declarative Pipeline that automates the process of building a Java application with Maven, running code quality checks via SonarQube, containerizing the app using Docker, pushing the image to a private Docker registry, and deploying it to a Kubernetes cluster (MicroK8s).
 
