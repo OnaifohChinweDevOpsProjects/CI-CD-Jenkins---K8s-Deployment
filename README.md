@@ -23,9 +23,11 @@ The Jenkins pipeline performs the following stages:
 6. **Deploy**: Deploy the application to a Kubernetes cluster (MicroK8s).
 
 🛠️ Prerequisites
+
 To successfully use this pipeline:
 
 Jenkins is installed and configured with:
+
 Maven (tool name: mvn)
 SonarQube integration
 Docker installed on the Jenkins agent
@@ -37,6 +39,7 @@ Type: Username with Password
 Used for authenticating Docker push
 
 ✅ Technologies Used
+
 Jenkins – CI/CD orchestration
 Maven – Build tool
 SonarQube – Static code analysis
@@ -45,14 +48,19 @@ MicroK8s – Lightweight Kubernetes
 Nexus – Image storage and distribution
 
 🧪 How to Run
+
 Push this code to your GitHub repository.
+
 In Jenkins:
+
 Create a new Pipeline Job.
 Configure the Pipeline to use the Jenkinsfile from this repo.
 Run the pipeline manually or configure GitHub Webhooks for CI/CD automation.
 
 🙋‍♂️ Author
+
 Chinwe Ebube Onaifoh
+
 📫 onaifohchinwe094@gmail.com
 📞 +1 (437) 473-4649
 📍 Ajax, Ontario, Canada
